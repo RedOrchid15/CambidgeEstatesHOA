@@ -5,7 +5,7 @@ body {
   color: #C5C1C0;
 }
 
-ul.gwc-topnav {
+ul.hoa-topnav {
     list-style-type: none;
     margin: 0 0 20px 0;
     padding: 20px 20px 20px 40px;
@@ -14,36 +14,36 @@ ul.gwc-topnav {
     float: none;
     text-align: center;
 }
-.gwc-logo {
+.hoa-logo {
  width: 50px;
 }
 
-.gwc-name {
+.hoa-name {
    color: #57BC90;
    font-family: 'Stalemate', cursive;
    margin: 0 0;
    padding: 0 0;
 }
-.gwc-name-h1 {
+.hoa-name-h1 {
   margin-top: 5px;
 }
 /* Float the list items side by side */
-ul.gwc-topnav li {
+ul.hoa-topnav li {
   display: inline-block;
   float: right;
  }
-#gwc-pic {
+#hoa-pic {
   float: left;
 }
-.gwc-logo {
+.hoa-logo {
   float: left;
 }
-.gwc-name {
+.hoa-name {
   float: left;
   font-size: 50px;
 }
 /* Style the links inside the list items */
-ul.gwc-topnav li a {
+ul.hoa-topnav li a {
     display: inline-block;
     color: #C5C1C0;
     text-align: center;
@@ -55,15 +55,15 @@ ul.gwc-topnav li a {
 }
 
 /* Change background color of links on hover */
-ul.gwc-topnav li a:hover {background-color: #111;}
+ul.hoa-topnav li a:hover {background-color: #111;}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.gwc-topnav li.gwc-icon {display: none;}
+ul.hoa-topnav li.hoa-icon {display: none;}
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 @media screen and (max-width:680px) {
-  ul.gwc-topnav li:not(:first-child) {display: none;}
-  ul.gwc-topnav li.gwc-icon {
+  ul.hoa-topnav li:not(:first-child) {display: none;}
+  ul.hoa-topnav li.hoa-icon {
     float: right;
     display: inline-block;
   }
@@ -71,8 +71,8 @@ ul.gwc-topnav li.gwc-icon {display: none;}
 
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 @media screen and (max-width:680px) {
-  ul.gwc-topnav li:not(:first-child) {display: none;}
-  ul.gwc-topnav li.gwc-icon {
+  ul.hoa-topnav li:not(:first-child) {display: none;}
+  ul.hoa-topnav li.hoa-icon {
     float: right;
     display: inline-block;
   }
@@ -80,47 +80,47 @@ ul.gwc-topnav li.gwc-icon {display: none;}
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
 @media screen and (max-width:680px) {
-  ul.gwc-topnav.responsive {position: relative;}
-  ul.gwc-topnav.responsive li.gwc-icon {
+  ul.hoa-topnav.responsive {position: relative;}
+  ul.hoa-topnav.responsive li.hoa-icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  ul.gwc-topnav.responsive li {
+  ul.hoa-topnav.responsive li {
     float: none;
     display: inline;
   }
-  ul.gwc-topnav.responsive li a {
+  ul.hoa-topnav.responsive li a {
     display: block;
     text-align: left;
   }
 }
 
-ul.gwc-topnav.gwc-indextopnav {
+ul.hoa-topnav.hoa-indextopnav {
    margin: 0 0 0 0px;
 }
 
 
-.gwc-footerleft {
+.hoa-footerleft {
   background-color: #1A2930;
   color: #C5C1C0;
 }
 
-.gwc-footer-techo {
+.hoa-footer-techo {
   font-size: 70px;
   padding: 20px;
   padding-bottom: 5px;
   font-family: 'Stalemate', cursive;
 }
 
-.gwc-footer-details {
+.hoa-footer-details {
   font-size: 20px;
   padding-left: 20px;
   font-family: 'Oswald', sans-serif;
   color: #0A1612;
 }
 
-.gwc-footer-details2 {
+.hoa-footer-details2 {
   font-size: 20px;
   padding-left: 20px;
   padding-bottom: 20px;
@@ -131,21 +131,21 @@ ul.gwc-topnav.gwc-indextopnav {
 
 /*INDEX*/
 
-.gwc-abouttitle {
+.hoa-abouttitle {
   text-align: center;
   font-size: 60px;
   color: #0A1612;
   font-family: 'Oswald', sans-serif;
 }
 
-.gwc-aboutgeneral {
+.hoa-aboutgeneral {
   font-size: 20px;
   margin: 30px 30px 40px 30px;
   color: #0A1612;
 font-family: 'Oswald', sans-serif;
 }
 
-.gwc-aboutus {
+.hoa-aboutus {
   margin: 20px 0px 20px 20px;
   border: 5px solid #57BC90;
   background: #C5C1C0;
@@ -166,12 +166,12 @@ font-family: 'Oswald', sans-serif;
     }
 }
 
-.gwc-carousel {
+.hoa-carousel {
     width: 90%;
     margin: 5% auto auto auto;
 }
 
-#gwc-carousel-example-generic {
+#hoa-carousel-example-generic {
     width: 90%;
 }
 
@@ -227,7 +227,7 @@ font-family: 'Oswald', sans-serif;
 
 /*OPPORTUNITIES*/
 
-.gwc-mainprofile {
+.hoa-mainprofile {
   font-family: 'Oswald', sans-serif;
   position: relative;
   height: 300px;
@@ -236,12 +236,12 @@ font-family: 'Oswald', sans-serif;
   margin: 20px;
 }
 
-.gwc-mainprofile .gwc-profilepic {
+.hoa-mainprofile .hoa-profilepic {
   width: 100%;
   height: auto;
 }
 
-.gwc-mainprofile .gwc-profileinfo {
+.hoa-mainprofile .hoa-profileinfo {
   position: absolute;
   top: 210px;
   height: 320px;
@@ -253,25 +253,25 @@ font-family: 'Oswald', sans-serif;
   -webkit-transition: -webkit-transform 1s;
   transition: transform 1s;
 }
-.gwc-mainprofile .gwc-profileinfo:hover {
+.hoa-mainprofile .hoa-profileinfo:hover {
   -ms-transform: translateY(-215px);
   -webkit-transform: translateY(-215px);
   transform: translateY(-215px);
 }
-.gwc-mainprofile .gwc-profileinfo .gwc-infotitle {
+.hoa-mainprofile .hoa-profileinfo .hoa-infotitle {
   height: 50px;
   font-size: 25px;
   padding: 15px;
 }
-.gwc-mainprofile .gwc-profileinfo .gwc-infotitle .gwc-infosubtitle {
+.hoa-mainprofile .hoa-profileinfo .hoa-infotitle .hoa-infosubtitle {
   font-size: 60%;
   color: #C5C1C0;
 }
-.gwc-mainprofile .gwc-profileinfo .gwc-profilesum {
+.hoa-mainprofile .hoa-profileinfo .hoa-profilesum {
   padding: 15px;
 }
 
-.gwc-infotitle {
+.hoa-infotitle {
   text-align: center;
 }
 
